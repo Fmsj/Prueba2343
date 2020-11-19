@@ -1,0 +1,35 @@
+iniciar-programa
+    inicia-ejecucion
+
+
+            repetir 4 veces avanza;
+            gira-izquierda;
+            gira-izquierda;
+            gira-izquierda;
+            avanza;
+            avanza;
+
+            si junto-a-zumbador entonces inicio
+
+                coge-zumbador;
+                coge-zumbador;
+           fin;
+
+           gira-izquierda;
+           gira-izquierda;
+           avanza;
+           avanza;
+           gira-izquierda;
+           avanza;
+           avanza;
+           avanza;
+           avanza;
+
+          si algun-zumbador-en-la-mochila entonces inicio
+               deja-zumbador;
+               deja-zumbador;
+          fin;
+           apagate;
+
+    termina-ejecucion
+finalizar-programa

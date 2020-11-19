@@ -1,0 +1,22 @@
+iniciar-programa
+
+    define-nueva-instruccion gira-derecha como inicio
+    gira-izquierda;
+    gira-izquierda;
+    gira-izquierda;
+    fin;
+
+    inicia-ejecucion
+
+        mientras junto-a-zumbador hacer inicio
+
+            mientras frente-libre y junto-a-zumbador hacer avanza;
+
+            mientras frente-bloqueado hacer gira-derecha;
+
+        fin;
+
+
+        apagate;
+    termina-ejecucion
+finalizar-programa

@@ -1,0 +1,49 @@
+iniciar-programa
+
+    define-nueva-instruccion  Gira-Derecha como inicio
+        gira-izquierda;
+        gira-izquierda;
+        gira-izquierda;
+    fin;
+
+    define-nueva-instruccion avanza4 como inicio
+
+        avanza;
+        avanza;
+        avanza;
+        avanza;
+
+    fin;
+
+    define-nueva-instruccion avanza2 como inicio
+
+        avanza;
+        avanza;
+
+    fin;
+
+
+
+inicia-ejecucion
+
+    avanza2;
+
+        si frente-bloqueado entonces inicio
+
+            Gira-Derecha;
+
+        fin;
+
+    avanza;
+    avanza;
+
+    si junto-a-zumbador entonces inicio
+
+        coge-zumbador
+
+    fin;
+
+
+        apagate;
+    termina-ejecucion
+finalizar-programa

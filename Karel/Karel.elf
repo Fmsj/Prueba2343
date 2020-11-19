@@ -1,0 +1,979 @@
+EurekaLog 6.1.01
+
+Application:
+-------------------------------------------------------
+  1.1 Start Date      : Mon, 13 May 2019 17:18:25 -0500
+  1.2 Name/Description: Karel.exe
+  1.3 Version Number  : 2.0.0.11
+  1.4 Parameters      : 
+  1.5 Compilation Date: Thu, 18 Aug 2011 11:07:39 -0500
+  1.6 Up Time         : 2 minutes, 11 seconds
+
+Exception:
+-------------------------------------------------------------------------------------
+  2.1 Date          : Mon, 13 May 2019 17:20:37 -0500
+  2.2 Address       : 
+  2.3 Module Name   : Karel.exe
+  2.4 Module Version: 2.0.0.11
+  2.5 Type          : EAccessViolation
+  2.6 Message       : Access violation at address 00000000. Read of address 00000000.
+  2.7 ID            : 0D2A
+  2.8 Count         : 1
+  2.9 Status        : New
+  2.10 Note         : 
+
+User:
+-------------------------------------------------------
+  3.1 ID        : Admin
+  3.2 Name      : Usuario de Windows
+  3.3 Email     : 
+  3.4 Company   : 
+  3.5 Privileges: SeShutdownPrivilege             - OFF
+                  SeChangeNotifyPrivilege         - ON
+                  SeUndockPrivilege               - OFF
+                  SeIncreaseWorkingSetPrivilege   - OFF
+                  SeTimeZonePrivilege             - OFF
+
+Active Controls:
+---------------------------------------------------------------------------------------------
+  4.1 Form Class   : TFPrincipal
+  4.2 Form Text    : Karel - Version oficial de la Olimpiada Mexicana de Informatica - V 2011
+  4.3 Control Class: TButton
+  4.4 Control Text : 
+
+Computer:
+-----------------------------------------------------------------------------------
+  5.1 Name          : JEMESCUDERO
+  5.2 Total Memory  : 7639 Mb
+  5.3 Free Memory   : 2870 Mb
+  5.4 Total Disk    : 219.73 Gb
+  5.5 Free Disk     : 80.18 Gb
+  5.6 System Up Time: 30 days, 19 hours, 27 minutes, 49 seconds
+  5.7 Processor     : Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+  5.8 Display Mode  : 1280 x 720, 32 bit
+  5.9 Display DPI   : 96
+  5.10 Video Card   : Intel(R) HD Graphics 620 (driver 21.20.16.4727 - RAM 1024 MB)
+  5.11 Printer      : Brother HL-L6200DW series (driver 2.0.0.0)
+
+Operating System:
+----------------------------------------------
+  6.1 Type    : Microsoft Windows 6.2 (64 bit)
+  6.2 Build # : 9200
+  6.3 Update  : 
+  6.4 Language: Spanish
+  6.5 Charset : 0
+
+Network:
+---------------------------------------------------------------------------------------
+  7.1 IP Address: 000.000.000.000 - 192.168.001.069 - 000.000.000.000 - 000.000.000.000
+  7.2 Submask   : 000.000.000.000 - 255.255.255.000 - 000.000.000.000 - 000.000.000.000
+  7.3 Gateway   : 000.000.000.000 - 192.168.001.254 - 000.000.000.000 - 000.000.000.000
+  7.4 DNS 1     : 000.000.000.000 - 192.168.001.254 - 000.000.000.000 - 000.000.000.000
+  7.5 DNS 2     : 000.000.000.000 - 000.000.000.000 - 000.000.000.000 - 000.000.000.000
+  7.6 DHCP      : ON              - ON              - ON              - ON             
+
+Call Stack Information:
+----------------------------------------------------------------------------------------
+|Address |Module        |Unit           |Class      |Procedure/Method         |Line    |
+----------------------------------------------------------------------------------------
+|Running Thread: ID=30972; Priority=0; Class=; [Main]                                  |
+|--------------------------------------------------------------------------------------|
+|76B95CA0|KERNELBASE.dll|               |           |MapGenericMask           |        |
+|770F07D0|ntdll.dll     |               |           |memcpy                   |        |
+|770CD0FE|ntdll.dll     |               |           |RtlCopyUnicodeString     |        |
+|75925980|KERNEL32.DLL  |               |           |IsValidCodePage          |        |
+|770EA90A|ntdll.dll     |               |           |ZwCallbackReturn         |        |
+|770BE870|ntdll.dll     |               |           |RtlLeaveCriticalSection  |        |
+|770EAB0A|ntdll.dll     |               |           |ZwQueryVirtualMemory     |        |
+|768DDE50|ucrtbase.dll  |               |           |memcpy                   |        |
+|770ECD81|ntdll.dll     |               |           |KiUserExceptionDispatcher|        |
+|770EBEBA|ntdll.dll     |               |           |NtRaiseException         |        |
+|770EBEB0|ntdll.dll     |               |           |NtRaiseException         |        |
+|73A066F0|gdi32full.dll |               |           |ScriptStringAnalyse      |        |
+|739FA2FE|gdi32full.dll |               |           |SetViewportOrgEx         |        |
+|740A31AA|win32u.dll    |               |           |NtGdiPolyPatBlt          |        |
+|739F4BB0|gdi32full.dll |               |           |PolyPatBlt               |        |
+|770EAB0A|ntdll.dll     |               |           |ZwQueryVirtualMemory     |        |
+|76B8AEB9|KERNELBASE.dll|               |           |VirtualQuery             |        |
+|759267B0|KERNEL32.DLL  |               |           |IsValidCodePage          |        |
+|770F07D0|ntdll.dll     |               |           |memcpy                   |        |
+|0060B980|Karel.exe     |UCompilador.pas|TCompilador|SeparaEnTokens           |3741[35]|
+|0060B74C|Karel.exe     |UCompilador.pas|TCompilador|SeparaEnTokens           |3706[0] |
+|005FF01D|Karel.exe     |UCompilador.pas|TCompilador|Compila                  |334[19] |
+|005FEF90|Karel.exe     |UCompilador.pas|TCompilador|Compila                  |315[0]  |
+|00610761|Karel.exe     |UPrincipal.pas |TFPrincipal|Button9Click             |618[3]  |
+|73D67AF8|user32.dll    |               |           |CallWindowProcW          |        |
+|73D67B05|user32.dll    |               |           |CallWindowProcW          |        |
+|73D89CD4|user32.dll    |               |           |GetWindowThreadProcessId |        |
+|770BE870|ntdll.dll     |               |           |RtlLeaveCriticalSection  |        |
+|73D6BC52|user32.dll    |               |           |SendMessageW             |        |
+|73D6BB20|user32.dll    |               |           |SendMessageW             |        |
+|73D67AF8|user32.dll    |               |           |CallWindowProcW          |        |
+|740A2ADA|win32u.dll    |               |           |NtUserGetThreadState     |        |
+|73D7A170|user32.dll    |               |           |GetCapture               |        |
+|73D7A160|user32.dll    |               |           |GetCapture               |        |
+|73B60418|oleaut32.dll  |               |           |SysFreeString            |        |
+|73B60423|oleaut32.dll  |               |           |SysFreeString            |        |
+|73D87A7B|user32.dll    |               |           |DispatchMessageW         |        |
+|73D87A70|user32.dll    |               |           |DispatchMessageW         |        |
+|0061C153|Karel.exe     |Karel.dpr      |           |                         |17[3]   |
+|75928492|KERNEL32.DLL  |               |           |BaseThreadInitThunk      |        |
+----------------------------------------------------------------------------------------
+
+Modules Information:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name                  |Description                                                 |Version            |Size    |Modified           |Path                                                                                                         |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00400000|Karel.exe             |                                                            |2.0.0.11           |2453504 |2019-05-13 17:18:14|C:\Users\Admin\Documents\Karel                                                                               |
+|0F3C0000|msado15.dll           |ActiveX Data Objects                                        |6.2.17134.648      |1083392 |2019-03-06 07:06:20|C:\Program Files (x86)\Common Files\System\ado                                                               |
+|0FA10000|olepro32.dll          |OLEPRO32.DLL                                                |6.2.17134.1        |89600   |2018-04-11 18:35:00|C:\WINDOWS\SYSTEM32                                                                                          |
+|0FD00000|MSDART.DLL            |OLE DB Runtime Routines                                     |6.2.17134.1        |123904  |2018-04-11 18:34:56|C:\WINDOWS\SYSTEM32                                                                                          |
+|6B090000|dcomp.dll             |Microsoft DirectComposition Library                         |6.2.17134.1        |1286624 |2018-04-11 18:34:52|C:\WINDOWS\system32                                                                                          |
+|6B1D0000|d3d11.dll             |Direct3D 11 Runtime                                         |6.2.17134.441      |2417976 |2018-11-08 21:07:18|C:\WINDOWS\system32                                                                                          |
+|6B430000|dataexchange.dll      |Data exchange                                               |6.2.17134.1        |308736  |2018-04-11 18:34:46|C:\WINDOWS\system32                                                                                          |
+|6B480000|ieframe.dll           |Explorador de Internet                                      |11.0.17134.706     |11919360|2019-04-02 04:11:10|C:\Windows\System32                                                                                          |
+|6BFF0000|CoreMessaging.dll     |Microsoft CoreMessaging Dll                                 |6.2.17134.471      |567256  |2018-12-08 02:45:32|C:\WINDOWS\System32                                                                                          |
+|6C080000|CoreUIComponents.dll  |Microsoft Core UI Components Dll                            |6.2.17134.376      |2487088 |2018-10-21 02:19:08|C:\WINDOWS\System32                                                                                          |
+|6C2E0000|TextInputFramework.dll|"TextInputFramework.DYNLINK"                                |6.2.17134.376      |505616  |2018-10-21 02:19:02|C:\WINDOWS\System32                                                                                          |
+|6C720000|RMCLIENT.dll          |Resource Manager Client                                     |6.2.17134.556      |127744  |2019-01-09 00:43:42|C:\WINDOWS\system32                                                                                          |
+|6C750000|twinapi.appcore.dll   |twinapi.appcore                                             |6.2.17134.137      |1462824 |2018-06-15 00:04:58|C:\WINDOWS\system32                                                                                          |
+|6CFB0000|wintypes.dll          |DLL de tipos basados en Windows                             |6.2.17134.523      |880048  |2019-01-01 01:38:00|C:\WINDOWS\SYSTEM32                                                                                          |
+|6EF10000|comctl32.DLL          |Biblioteca de controles de la experiencia del usuario       |6.10.17134.706     |2099000 |2019-04-02 04:21:20|C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17134.706_none_42f0d9a244e0990d |
+|6F770000|iertutil.dll          |Utilidad en tiempo de ejecución para Internet Explorer      |11.0.17134.677     |2256248 |2019-03-14 03:37:28|C:\Windows\System32                                                                                          |
+|71E90000|WINHTTP.dll           |Servicios HTTP de Windows                                   |6.2.17134.590      |720480  |2019-02-05 22:01:40|C:\Windows\System32                                                                                          |
+|72550000|ntmarta.dll           |Proveedor MARTA de Windows NT                               |6.2.17134.1        |154016  |2018-04-11 18:34:52|C:\WINDOWS\SYSTEM32                                                                                          |
+|725F0000|NETUTILS.DLL          |Net Win32 API Helpers DLL                                   |6.2.17134.1        |37768   |2018-04-11 18:34:52|C:\Windows\System32                                                                                          |
+|726E0000|mswsock.dll           |Proveedor de servicios de Microsoft Windows Sockets 2.0     |6.2.17134.1        |341920  |2018-04-11 18:34:52|C:\WINDOWS\SYSTEM32                                                                                          |
+|72750000|wsock32.dll           |Windows Socket 32-Bit DLL                                   |6.2.17134.1        |16384   |2018-04-11 18:34:56|C:\WINDOWS\SYSTEM32                                                                                          |
+|72760000|NETAPI32.dll          |Net Win32 API DLL                                           |6.2.17134.1        |69288   |2018-04-11 18:34:50|C:\Windows\System32                                                                                          |
+|72790000|WKSCLI.DLL            |Workstation Service Client DLL                              |6.2.17134.1        |58432   |2018-04-11 18:34:52|C:\Windows\System32                                                                                          |
+|729B0000|dxgi.dll              |DirectX Graphics Infrastructure                             |6.2.17134.112      |613144  |2018-06-08 05:35:54|C:\WINDOWS\system32                                                                                          |
+|72E50000|dwmapi.dll            |API del Administrador de ventanas de escritorio de Microsoft|6.2.17134.1        |124824  |2018-04-11 18:34:52|C:\WINDOWS\system32                                                                                          |
+|73020000|comctl32.dll          |Biblioteca de controles comunes                             |5.82.17134.48      |573848  |2018-05-16 05:45:26|C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17134.706_none_40fb64164515a358|
+|73130000|apphelp.dll           |Biblioteca de compatibilidad de aplicaciones cliente        |6.2.17134.1        |627712  |2018-04-11 18:34:52|C:\WINDOWS\SYSTEM32                                                                                          |
+|73350000|bcrypt.dll            |Biblioteca de primitivas criptográficas de Windows          |6.2.17134.112      |97176   |2018-06-08 04:10:40|C:\WINDOWS\SYSTEM32                                                                                          |
+|73370000|PROPSYS.dll           |Sistema de propiedades de Microsoft                         |7.0.17134.619      |1584536 |2019-02-16 02:51:04|C:\WINDOWS\SYSTEM32                                                                                          |
+|73710000|uxtheme.dll           |Biblioteca UxTheme de Microsoft                             |6.2.17134.1        |485888  |2018-04-11 18:35:02|C:\WINDOWS\system32                                                                                          |
+|73790000|winspool.drv          |Controlador de administración de colas para Windows         |6.2.17134.648      |423936  |2019-03-06 07:04:28|C:\WINDOWS\SYSTEM32                                                                                          |
+|73800000|msimg32.dll           |GDIEXT Client DLL                                           |6.2.17134.1        |7168    |2018-04-11 18:34:52|C:\WINDOWS\SYSTEM32                                                                                          |
+|73810000|IPHLPAPI.DLL          |API auxiliar para IP                                        |6.2.17134.1        |190136  |2018-04-11 18:34:52|C:\WINDOWS\SYSTEM32                                                                                          |
+|73920000|version.dll           |Version Checking and File Installation Libraries            |6.2.17134.1        |27424   |2018-04-11 18:35:02|C:\WINDOWS\SYSTEM32                                                                                          |
+|73930000|CRYPTBASE.dll         |Base cryptographic API DLL                                  |6.2.17134.1        |31592   |2018-04-11 18:35:02|C:\WINDOWS\System32                                                                                          |
+|73940000|SspiCli.dll           |Security Support Provider Interface                         |6.2.17134.376      |123424  |2018-10-21 02:21:16|C:\WINDOWS\System32                                                                                          |
+|73960000|kernel.appcore.dll    |AppModel API Host                                           |6.2.17134.112      |50208   |2018-06-08 04:09:42|C:\WINDOWS\System32                                                                                          |
+|73970000|gdi32full.dll         |GDI Client DLL                                              |6.2.17134.706      |1454648 |2019-04-02 04:25:32|C:\WINDOWS\System32                                                                                          |
+|73B40000|oleaut32.dll          |OLEAUT32.DLL                                                |6.2.17134.706      |604008  |2019-04-02 00:04:44|C:\WINDOWS\System32                                                                                          |
+|73BE0000|GDI32.dll             |GDI Client DLL                                              |6.2.17134.285      |134936  |2018-08-30 22:28:44|C:\WINDOWS\System32                                                                                          |
+|73C10000|WS2_32.dll            |DLL de 32 bits de Windows Socket 2.0                        |6.2.17134.1        |412792  |2018-04-11 18:35:04|C:\WINDOWS\System32                                                                                          |
+|73CD0000|advapi32.dll          |API base de Windows 32 avanzado                             |6.2.17134.471      |481880  |2018-12-08 07:41:06|C:\WINDOWS\System32                                                                                          |
+|73D50000|user32.dll            |Archivo DLL de cliente API USER de Windows multiusuario     |6.2.17134.376      |1626656 |2018-10-21 06:37:44|C:\WINDOWS\System32                                                                                          |
+|74050000|powrprof.dll          |Archivo DLL auxiliar del perfil de energía                  |6.2.17134.1        |274352  |2018-04-11 18:34:52|C:\WINDOWS\System32                                                                                          |
+|740A0000|win32u.dll            |Win32u                                                      |6.2.17134.1        |86840   |2018-04-11 18:34:50|C:\WINDOWS\System32                                                                                          |
+|740C0000|clbcatq.dll           |COM+ Configuration Catalog                                  |2001.12.10941.16384|526848  |2018-04-11 18:34:52|C:\WINDOWS\System32                                                                                          |
+|74150000|ole32.dll             |Microsoft OLE para Windows                                  |6.2.17134.407      |1027000 |2018-11-01 05:09:56|C:\WINDOWS\System32                                                                                          |
+|74250000|comdlg32.dll          |Archivo DLL de diálogos comunes                             |6.2.17134.1        |847872  |2018-04-11 18:35:00|C:\WINDOWS\System32                                                                                          |
+|74390000|profapi.dll           |User Profile Basic API                                      |6.2.17134.1        |89440   |2018-04-11 18:35:04|C:\WINDOWS\System32                                                                                          |
+|74550000|shell32.dll           |Archivo DLL común del shell de Windows                      |6.2.17134.441      |20383832|2018-11-09 00:32:08|C:\WINDOWS\System32                                                                                          |
+|758B0000|sechost.dll           |Host for SCM/SDDL/LSA Lookup APIs                           |6.2.17134.319      |269104  |2018-09-07 22:43:50|C:\WINDOWS\System32                                                                                          |
+|75910000|KERNEL32.DLL          |Archivo DLL de cliente API BASE de Windows NT               |6.2.17134.706      |607960  |2019-04-02 04:25:10|C:\WINDOWS\System32                                                                                          |
+|75A80000|cfgmgr32.dll          |Configuration Manager DLL                                   |6.2.17134.1        |228864  |2018-04-11 18:34:52|C:\WINDOWS\System32                                                                                          |
+|75AC0000|MSCTF.dll             |Archivo DLL del servidor MSCTF                              |6.2.17134.619      |1322176 |2019-02-16 07:22:52|C:\WINDOWS\System32                                                                                          |
+|75C10000|FLTLIB.DLL            |Biblioteca de filtros                                       |6.2.17134.1        |27936   |2018-04-11 18:34:52|C:\WINDOWS\System32                                                                                          |
+|75C20000|shcore.dll            |SHCORE                                                      |6.2.17134.112      |553248  |2018-06-08 04:09:56|C:\WINDOWS\System32                                                                                          |
+|75CB0000|bcryptPrimitives.dll  |Windows Cryptographic Primitives Library                    |6.2.17134.471      |356864  |2018-12-08 02:45:52|C:\WINDOWS\System32                                                                                          |
+|75D10000|windows.storage.dll   |API de almacenamiento de Microsoft WinRT                    |6.2.17134.677      |6043496 |2019-03-14 03:37:30|C:\WINDOWS\System32                                                                                          |
+|76300000|msvcrt.dll            |Windows NT CRT DLL                                          |7.0.17134.1        |774288  |2018-04-11 18:35:02|C:\WINDOWS\System32                                                                                          |
+|76850000|IMM32.DLL             |Multi-User Windows IMM32 API Client DLL                     |6.2.17134.1        |147288  |2018-04-11 18:34:52|C:\WINDOWS\System32                                                                                          |
+|76880000|ucrtbase.dll          |Microsoft® C Runtime Library                                |6.2.17134.677      |1171568 |2019-03-14 03:37:14|C:\WINDOWS\System32                                                                                          |
+|769A0000|shlwapi.dll           |Biblioteca de utilidades de Shell                           |6.2.17134.1        |278960  |2018-04-11 18:35:00|C:\WINDOWS\System32                                                                                          |
+|769F0000|PSAPI.DLL             |Process Status Helper                                       |6.2.17134.1        |17104   |2018-04-11 18:34:52|C:\WINDOWS\System32                                                                                          |
+|76A00000|msvcp_win.dll         |Microsoft® C Runtime Library                                |6.2.17134.619      |504072  |2019-02-16 02:50:28|C:\WINDOWS\System32                                                                                          |
+|76A80000|KERNELBASE.dll        |Archivo DLL de cliente API BASE de Windows NT               |6.2.17134.556      |1981280 |2019-01-09 00:43:10|C:\WINDOWS\System32                                                                                          |
+|76C70000|combase.dll           |Microsoft COM para Windows                                  |6.2.17134.619      |2479168 |2019-02-16 02:51:16|C:\WINDOWS\System32                                                                                          |
+|76ED0000|RPCRT4.dll            |Tiempo de ejecución de llamada a procedimiento remoto       |6.2.17134.648      |785568  |2019-03-06 01:14:34|C:\WINDOWS\System32                                                                                          |
+|77080000|ntdll.dll             |DLL del nivel de Windows NT                                 |6.2.17134.556      |1620264 |2019-01-09 00:43:04|C:\WINDOWS\SYSTEM32                                                                                          |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processes Information:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|ID   |Name                     |Description                                                 |Version       |Memory|Priority    |Threads|Path                                                |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|0    |[System Process]         |                                                            |              |0     |            |4      |                                                    |
+|4    |System                   |                                                            |              |0     |Normal      |176    |                                                    |
+|96   |Registry                 |                                                            |              |0     |Normal      |3      |                                                    |
+|400  |smss.exe                 |                                                            |              |0     |Above-Normal|2      |                                                    |
+|492  |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |18     |                                                    |
+|624  |csrss.exe                |                                                            |              |0     |High        |22     |                                                    |
+|648  |csrss.exe                |                                                            |              |0     |High        |11     |                                                    |
+|708  |wininit.exe              |                                                            |              |0     |High        |1      |                                                    |
+|720  |csrss.exe                |                                                            |              |0     |High        |11     |                                                    |
+|780  |services.exe             |                                                            |              |0     |Normal      |7      |                                                    |
+|788  |lsass.exe                |                                                            |              |0     |Normal      |10     |                                                    |
+|904  |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |2      |                                                    |
+|924  |fontdrvhost.exe          |Usermode Font Driver Host                                   |10.0.17134.376|0     |Normal      |5      |                                                    |
+|960  |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |23     |                                                    |
+|1016 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |13     |                                                    |
+|1124 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |2      |                                                    |
+|1148 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|1252 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |8      |                                                    |
+|1276 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |2      |                                                    |
+|1388 |ibmpmsvc.exe             |                                                            |              |0     |Normal      |10     |                                                    |
+|1396 |LPlatSvc.exe             |                                                            |              |0     |Normal      |8      |                                                    |
+|1408 |DropboxUpdate.exe        |                                                            |              |0     |Normal      |3      |                                                    |
+|1444 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |4      |                                                    |
+|1512 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |5      |                                                    |
+|1532 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |6      |                                                    |
+|1548 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|1584 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|1616 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|1708 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |6      |                                                    |
+|1716 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |5      |                                                    |
+|1764 |Memory Compression       |                                                            |              |0     |Normal      |62     |                                                    |
+|1776 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |7      |                                                    |
+|1812 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |2      |                                                    |
+|1868 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |8      |                                                    |
+|1916 |igfxCUIService.exe       |                                                            |              |0     |Normal      |2      |                                                    |
+|1928 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |6      |                                                    |
+|1972 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |7      |                                                    |
+|2132 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |13     |                                                    |
+|2256 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |11     |                                                    |
+|2328 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |4      |                                                    |
+|2344 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |5      |                                                    |
+|2352 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |10     |                                                    |
+|2392 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |16     |                                                    |
+|2396 |IntelCpHDCPSvc.exe       |                                                            |              |0     |Normal      |3      |                                                    |
+|2480 |csrss.exe                |                                                            |              |0     |High        |14     |                                                    |
+|2536 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |8      |                                                    |
+|2560 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |10     |                                                    |
+|2580 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |14     |                                                    |
+|2660 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |4      |                                                    |
+|2668 |wlanext.exe              |Marco de extensibilidad de LAN inalámbrica 802.11 de Windows|10.0.17134.1  |0     |Normal      |9      |                                                    |
+|2684 |conhost.exe              |                                                            |              |0     |Normal      |2      |                                                    |
+|2688 |CxUtilSvc.exe            |                                                            |              |0     |Normal      |2      |                                                    |
+|2744 |fshoster64.exe           |                                                            |              |0     |Normal      |3      |                                                    |
+|2768 |spoolsv.exe              |                                                            |              |0     |Normal      |27     |                                                    |
+|2804 |CAudioFilterAgent64.exe  |                                                            |              |0     |Below-Normal|3      |                                                    |
+|2856 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |14     |                                                    |
+|2868 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |5      |                                                    |
+|2992 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |4      |                                                    |
+|3060 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |9      |                                                    |
+|3080 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |2      |                                                    |
+|3104 |FSMA32.EXE               |                                                            |              |0     |Normal      |19     |                                                    |
+|3160 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |5      |                                                    |
+|3200 |chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|3224 |RuntimeBroker.exe        |                                                            |              |0     |Normal      |2      |                                                    |
+|3252 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |10     |                                                    |
+|3268 |browser_broker.exe       |                                                            |              |0     |Normal      |2      |                                                    |
+|3288 |EasyResume.exe           |                                                            |              |0     |Normal      |5      |                                                    |
+|3340 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |6      |                                                    |
+|3360 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |2      |                                                    |
+|3376 |RtkBtManServ.exe         |Realtek Bluetooth Device Manager Service Application        |1.0.4.1       |0     |Normal      |3      |                                                    |
+|3384 |SASrv.exe                |                                                            |              |0     |Normal      |3      |                                                    |
+|3408 |SecurityHealthService.exe|                                                            |              |0     |Normal      |33     |                                                    |
+|3424 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |9      |                                                    |
+|3436 |SynTPEnhService.exe      |                                                            |              |0     |Normal      |5      |                                                    |
+|3456 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|3468 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |9      |                                                    |
+|3480 |WsAppService.exe         |                                                            |              |0     |Normal      |5      |                                                    |
+|3572 |CxAudMsg64.exe           |                                                            |              |0     |Normal      |3      |                                                    |
+|3712 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|3728 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |6      |                                                    |
+|3748 |dasHost.exe              |                                                            |              |0     |Normal      |3      |                                                    |
+|3988 |fshoster64.exe           |                                                            |              |0     |Normal      |85     |                                                    |
+|4116 |LPlatSvc.exe             |                                                            |              |0     |Normal      |3      |                                                    |
+|4172 |FSHDLL32.EXE             |                                                            |              |0     |Normal      |30     |                                                    |
+|4212 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |29     |                                                    |
+|4280 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |10     |                                                    |
+|4360 |chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|4448 |chrome.exe               |                                                            |              |0     |Normal      |12     |                                                    |
+|4472 |IntelCpHeciSvc.exe       |                                                            |              |0     |Normal      |6      |                                                    |
+|4656 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |12     |                                                    |
+|4840 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |9      |                                                    |
+|4980 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |5      |                                                    |
+|5300 |fnrb32.exe               |                                                            |              |0     |Normal      |8      |                                                    |
+|5308 |FSHDLL64.EXE             |                                                            |              |0     |Normal      |2      |                                                    |
+|5328 |fsaua.exe                |                                                            |              |0     |Below-Normal|4      |                                                    |
+|5428 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |9      |                                                    |
+|5440 |QtWebEngineProcess.exe   |Qt Qtwebengineprocess                                       |5.12.3.0      |0     |Normal      |14     |C:\Program Files (x86)\Dropbox\Client\72.4.136      |
+|5540 |fsdfwd.exe               |                                                            |              |0     |Normal      |10     |                                                    |
+|5624 |fih32.exe                |                                                            |              |0     |Normal      |2      |                                                    |
+|5896 |sihost.exe               |                                                            |              |0     |Normal      |12     |                                                    |
+|5944 |SgrmBroker.exe           |                                                            |              |0     |Normal      |2      |                                                    |
+|6028 |PresentationFontCache.exe|                                                            |              |0     |Normal      |4      |                                                    |
+|6316 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|6408 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |2      |                                                    |
+|6428 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|6712 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |8      |                                                    |
+|6760 |chrome.exe               |                                                            |              |0     |Low         |12     |                                                    |
+|6912 |SearchUI.exe             |                                                            |              |0     |Normal      |52     |                                                    |
+|7096 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |10     |                                                    |
+|7280 |csrss.exe                |                                                            |              |0     |High        |11     |                                                    |
+|7508 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |10     |                                                    |
+|7664 |WINWORD.EXE              |                                                            |              |0     |Normal      |21     |                                                    |
+|8116 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |7      |                                                    |
+|8544 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |6      |                                                    |
+|8760 |GoogleCrashHandler.exe   |                                                            |              |0     |Low         |3      |                                                    |
+|8776 |GoogleCrashHandler64.exe |                                                            |              |0     |Low         |3      |                                                    |
+|9116 |chrome.exe               |                                                            |              |0     |Normal      |17     |                                                    |
+|9220 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |5      |                                                    |
+|9628 |csrss.exe                |                                                            |              |0     |High        |12     |                                                    |
+|9712 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |11     |                                                    |
+|9888 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |10     |                                                    |
+|10124|SearchIndexer.exe        |Indizador de Microsoft Windows Search                       |7.0.17134.677 |0     |Normal      |24     |                                                    |
+|10136|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |6      |                                                    |
+|10664|chrome.exe               |                                                            |              |0     |Low         |12     |                                                    |
+|10964|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|11104|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|11372|DolbyDAX2API.exe         |                                                            |              |0     |Normal      |7      |                                                    |
+|11860|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |4      |                                                    |
+|11888|chrome.exe               |                                                            |              |0     |Low         |13     |                                                    |
+|12092|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |4      |                                                    |
+|12188|csrss.exe                |                                                            |              |0     |High        |12     |                                                    |
+|12196|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |5      |                                                    |
+|12696|csrss.exe                |                                                            |              |0     |High        |11     |                                                    |
+|12828|ShellExperienceHost.exe  |                                                            |              |0     |Normal      |29     |                                                    |
+|12884|csrss.exe                |                                                            |              |0     |High        |11     |                                                    |
+|13500|SearchProtocolHost.exe   |Microsoft Windows Search Protocol Host                      |7.0.17134.677 |0     |Low         |7      |                                                    |
+|13828|taskhostw.exe            |                                                            |              |0     |Normal      |9      |                                                    |
+|13876|chrome.exe               |                                                            |              |0     |Normal      |11     |                                                    |
+|13964|csrss.exe                |                                                            |              |0     |High        |11     |                                                    |
+|14432|MicrosoftEdge.exe        |                                                            |              |0     |Normal      |39     |                                                    |
+|14660|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|15116|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |4      |                                                    |
+|15268|SkypeBackgroundHost.exe  |                                                            |              |0     |Normal      |2      |                                                    |
+|15368|chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|15496|chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|15592|chrome.exe               |                                                            |              |0     |Low         |12     |                                                    |
+|16024|RuntimeBroker.exe        |                                                            |              |0     |Normal      |5      |                                                    |
+|16184|explorer.exe             |Explorador de Windows                                       |10.0.17134.677|0     |Normal      |114    |                                                    |
+|16292|ApplicationFrameHost.exe |                                                            |              |0     |Normal      |6      |                                                    |
+|16516|fontdrvhost.exe          |Usermode Font Driver Host                                   |10.0.17134.376|0     |Normal      |5      |                                                    |
+|16880|RuntimeBroker.exe        |                                                            |              |0     |Normal      |3      |                                                    |
+|17840|chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|18588|BrCtrlCntr.exe           |ControlCenter Main Process                                  |4.6.6.1       |0     |Normal      |2      |C:\Program Files (x86)\ControlCenter4               |
+|18952|Video.UI.exe             |                                                            |              |0     |Normal      |18     |                                                    |
+|19388|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|19608|chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|19680|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |2      |                                                    |
+|20520|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |5      |                                                    |
+|21844|chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|22104|RuntimeBroker.exe        |                                                            |              |0     |Normal      |2      |                                                    |
+|22136|FSM32.EXE                |F-Secure Settings and Statistics                            |10.10.124.0   |0     |Normal      |20     |C:\Program Files (x86)\F-Secure\Common              |
+|22608|taskhostw.exe            |                                                            |              |0     |Normal      |4      |                                                    |
+|23960|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |6      |                                                    |
+|24624|chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|24876|csrss.exe                |                                                            |              |0     |High        |12     |                                                    |
+|24904|fsulprothoster.exe       |                                                            |              |0     |Normal      |7      |                                                    |
+|25232|LockApp.exe              |                                                            |              |0     |Normal      |10     |                                                    |
+|25716|SkypeBridge.exe          |                                                            |              |0     |Normal      |13     |                                                    |
+|26216|SkypeApp.exe             |                                                            |              |0     |Normal      |41     |                                                    |
+|26596|ctfmon.exe               |Cargador de CTF                                             |10.0.17134.1  |0     |High        |9      |                                                    |
+|26764|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|27724|CEPHtmlEngine.exe        |                                                            |              |0     |Normal      |9      |                                                    |
+|27744|chrome.exe               |                                                            |              |0     |Low         |12     |                                                    |
+|28172|Dropbox.exe              |Dropbox                                                     |72.4.136.0    |0     |Normal      |5      |C:\Program Files (x86)\Dropbox\Client               |
+|28512|RuntimeBroker.exe        |                                                            |              |0     |Normal      |1      |                                                    |
+|28572|dllhost.exe              |COM Surrogate                                               |10.0.17134.1  |0     |Normal      |5      |                                                    |
+|28608|CEPHtmlEngine.exe        |                                                            |              |0     |Normal      |21     |                                                    |
+|28620|chrome.exe               |                                                            |              |0     |Normal      |11     |                                                    |
+|28740|Karel.exe                |                                                            |2.0.0.11      |0     |Normal      |4      |C:\Users\Admin\Documents\Karel                      |
+|28804|Music.UI.exe             |                                                            |              |0     |Normal      |17     |                                                    |
+|29380|igfxext.exe              |                                                            |              |0     |Normal      |2      |                                                    |
+|29580|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |2      |                                                    |
+|30128|chrome.exe               |                                                            |              |0     |Normal      |7      |                                                    |
+|30204|LPlatSvc.exe             |                                                            |              |0     |Normal      |8      |                                                    |
+|30664|SnippingTool.exe         |                                                            |              |0     |Normal      |14     |                                                    |
+|30708|SearchProtocolHost.exe   |Microsoft Windows Search Protocol Host                      |7.0.17134.677 |0     |Low         |6      |                                                    |
+|31508|RuntimeBroker.exe        |                                                            |              |0     |Normal      |8      |                                                    |
+|31704|chrome.exe               |                                                            |              |0     |Normal      |11     |                                                    |
+|31728|WinStore.App.exe         |                                                            |              |0     |Normal      |21     |                                                    |
+|31764|chrome.exe               |                                                            |              |0     |Normal      |12     |                                                    |
+|32012|chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|32828|chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|32964|chrome.exe               |                                                            |              |0     |Normal      |35     |                                                    |
+|33228|MSASCuiL.exe             |                                                            |              |0     |Normal      |1      |                                                    |
+|33360|chrome.exe               |                                                            |              |0     |Normal      |6      |                                                    |
+|34168|chrome.exe               |                                                            |              |0     |Low         |13     |                                                    |
+|34596|CEPHtmlEngine.exe        |                                                            |              |0     |Normal      |11     |                                                    |
+|34712|chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|35300|chrome.exe               |                                                            |              |0     |Low         |14     |                                                    |
+|35460|jucheck.exe              |Java Update Checker                                         |2.8.181.13    |0     |Normal      |3      |C:\Program Files (x86)\Common Files\Java\Java Update|
+|35652|DbxSvc.exe               |                                                            |              |0     |Normal      |24     |                                                    |
+|35916|chrome.exe               |                                                            |              |0     |Normal      |14     |                                                    |
+|36288|chrome.exe               |                                                            |              |0     |Low         |13     |                                                    |
+|37596|Illustrator.exe          |                                                            |              |0     |Normal      |30     |                                                    |
+|37948|fsorsp64.exe             |                                                            |              |0     |Normal      |11     |                                                    |
+|38048|smartscreen.exe          |                                                            |              |0     |Normal      |14     |                                                    |
+|38068|audiodg.exe              |                                                            |              |0     |Normal      |6      |                                                    |
+|38460|PowerMgr.exe             |Lenovo Power Manager Host                                   |10.0.56.0     |0     |Below-Normal|8      |C:\WINDOWS\SysWOW64\Lenovo\PowerMgr                 |
+|39676|MicrosoftEdgeCP.exe      |                                                            |              |0     |Normal      |17     |                                                    |
+|39824|SystemSettings.exe       |                                                            |              |0     |Normal      |37     |                                                    |
+|40064|csrss.exe                |                                                            |              |0     |High        |11     |                                                    |
+|40296|OneDrive.exe             |Microsoft OneDrive                                          |19.62.331.6   |0     |Normal      |18     |C:\Users\Admin\AppData\Local\Microsoft\OneDrive     |
+|41176|splwow64.exe             |Print driver host for applications                          |10.0.17134.1  |0     |Normal      |4      |                                                    |
+|41236|chrome.exe               |                                                            |              |0     |Low         |15     |                                                    |
+|41436|Microsoft.Photos.exe     |                                                            |              |0     |Normal      |15     |                                                    |
+|42588|MicrosoftEdgeCP.exe      |                                                            |              |0     |Normal      |16     |                                                    |
+|42652|winlogon.exe             |                                                            |              |0     |High        |3      |                                                    |
+|43004|dwm.exe                  |                                                            |              |0     |High        |13     |                                                    |
+|43144|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |12     |                                                    |
+|43436|RuntimeBroker.exe        |                                                            |              |0     |Normal      |11     |                                                    |
+|43824|Dropbox.exe              |Dropbox                                                     |72.4.136.0    |0     |Normal      |6      |C:\Program Files (x86)\Dropbox\Client               |
+|43872|jusched.exe              |Java Update Scheduler                                       |2.8.181.13    |0     |Normal      |2      |C:\Program Files (x86)\Common Files\Java\Java Update|
+|44128|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |4      |                                                    |
+|45040|Dropbox.exe              |Dropbox                                                     |72.4.136.0    |0     |Normal      |144    |C:\Program Files (x86)\Dropbox\Client               |
+|45100|chrome.exe               |                                                            |              |0     |Normal      |2      |                                                    |
+|45300|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |2      |                                                    |
+|45412|RuntimeBroker.exe        |                                                            |              |0     |Normal      |5      |                                                    |
+|45816|chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|46728|chrome.exe               |                                                            |              |0     |Normal      |11     |                                                    |
+|46756|chrome.exe               |                                                            |              |0     |Normal      |7      |                                                    |
+|46800|csrss.exe                |                                                            |              |0     |High        |11     |                                                    |
+|47080|chrome.exe               |                                                            |              |0     |Low         |13     |                                                    |
+|48336|chrome.exe               |                                                            |              |0     |Low         |15     |                                                    |
+|48416|SmartAudio.exe           |SmartAudio                                                  |6.0.273.0     |0     |Below-Normal|30     |C:\Program Files\Conexant\SAII                      |
+|48780|csrss.exe                |                                                            |              |0     |High        |16     |                                                    |
+|49404|chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|49420|chrome.exe               |                                                            |              |0     |Normal      |13     |                                                    |
+|49440|chrome.exe               |                                                            |              |0     |Normal      |7      |                                                    |
+|49492|BrCcUxSys.exe            |ControlCenter UX System                                     |4.6.11.1      |0     |Normal      |1      |C:\Program Files (x86)\ControlCenter4               |
+|49604|RuntimeBroker.exe        |                                                            |              |0     |Normal      |4      |                                                    |
+|49992|SettingSyncHost.exe      |Host Process for Setting Synchronization                    |10.0.17134.1  |0     |Below-Normal|6      |                                                    |
+|50324|IllustratorPortable.exe  |                                                            |              |0     |Normal      |1      |                                                    |
+|50636|SearchFilterHost.exe     |Microsoft Windows Search Filter Host                        |7.0.17134.1   |0     |Low         |5      |                                                    |
+|51160|igfxEM.exe               |                                                            |              |0     |Normal      |3      |                                                    |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+EurekaLog 6.1.01
+
+Application:
+-------------------------------------------------------
+  1.1 Start Date      : Mon, 13 May 2019 17:18:25 -0500
+  1.2 Name/Description: Karel.exe
+  1.3 Version Number  : 2.0.0.11
+  1.4 Parameters      : 
+  1.5 Compilation Date: Thu, 18 Aug 2011 11:07:39 -0500
+  1.6 Up Time         : 2 minutes, 48 seconds
+
+Exception:
+-------------------------------------------------------------------------------------
+  2.1 Date          : Mon, 13 May 2019 17:21:13 -0500
+  2.2 Address       : 
+  2.3 Module Name   : Karel.exe
+  2.4 Module Version: 2.0.0.11
+  2.5 Type          : EAccessViolation
+  2.6 Message       : Access violation at address 00000000. Read of address 00000000.
+  2.7 ID            : 0D2A
+  2.8 Count         : 1
+  2.9 Status        : New
+  2.10 Note         : 
+
+User:
+-------------------------------------------------------
+  3.1 ID        : Admin
+  3.2 Name      : Usuario de Windows
+  3.3 Email     : 
+  3.4 Company   : 
+  3.5 Privileges: SeShutdownPrivilege             - OFF
+                  SeChangeNotifyPrivilege         - ON
+                  SeUndockPrivilege               - OFF
+                  SeIncreaseWorkingSetPrivilege   - OFF
+                  SeTimeZonePrivilege             - OFF
+
+Active Controls:
+---------------------------------------------------------------------------------------------
+  4.1 Form Class   : TFPrincipal
+  4.2 Form Text    : Karel - Version oficial de la Olimpiada Mexicana de Informatica - V 2011
+  4.3 Control Class: TButton
+  4.4 Control Text : 
+
+Computer:
+-----------------------------------------------------------------------------------
+  5.1 Name          : JEMESCUDERO
+  5.2 Total Memory  : 7639 Mb
+  5.3 Free Memory   : 2842 Mb
+  5.4 Total Disk    : 219.73 Gb
+  5.5 Free Disk     : 80.18 Gb
+  5.6 System Up Time: 30 days, 19 hours, 28 minutes, 25 seconds
+  5.7 Processor     : Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+  5.8 Display Mode  : 1280 x 720, 32 bit
+  5.9 Display DPI   : 96
+  5.10 Video Card   : Intel(R) HD Graphics 620 (driver 21.20.16.4727 - RAM 1024 MB)
+  5.11 Printer      : Brother HL-L6200DW series (driver 2.0.0.0)
+
+Operating System:
+----------------------------------------------
+  6.1 Type    : Microsoft Windows 6.2 (64 bit)
+  6.2 Build # : 9200
+  6.3 Update  : 
+  6.4 Language: Spanish
+  6.5 Charset : 0
+
+Network:
+---------------------------------------------------------------------------------------
+  7.1 IP Address: 000.000.000.000 - 192.168.001.069 - 000.000.000.000 - 000.000.000.000
+  7.2 Submask   : 000.000.000.000 - 255.255.255.000 - 000.000.000.000 - 000.000.000.000
+  7.3 Gateway   : 000.000.000.000 - 192.168.001.254 - 000.000.000.000 - 000.000.000.000
+  7.4 DNS 1     : 000.000.000.000 - 192.168.001.254 - 000.000.000.000 - 000.000.000.000
+  7.5 DNS 2     : 000.000.000.000 - 000.000.000.000 - 000.000.000.000 - 000.000.000.000
+  7.6 DHCP      : ON              - ON              - ON              - ON             
+
+Call Stack Information:
+----------------------------------------------------------------------------------------
+|Address |Module        |Unit           |Class      |Procedure/Method         |Line    |
+----------------------------------------------------------------------------------------
+|Running Thread: ID=30972; Priority=0; Class=; [Main]                                  |
+|--------------------------------------------------------------------------------------|
+|76B95CA0|KERNELBASE.dll|               |           |MapGenericMask           |        |
+|770F07D0|ntdll.dll     |               |           |memcpy                   |        |
+|770CD0FE|ntdll.dll     |               |           |RtlCopyUnicodeString     |        |
+|75925980|KERNEL32.DLL  |               |           |IsValidCodePage          |        |
+|770EA90A|ntdll.dll     |               |           |ZwCallbackReturn         |        |
+|770BE870|ntdll.dll     |               |           |RtlLeaveCriticalSection  |        |
+|770EAB0A|ntdll.dll     |               |           |ZwQueryVirtualMemory     |        |
+|768DDE50|ucrtbase.dll  |               |           |memcpy                   |        |
+|770ECD81|ntdll.dll     |               |           |KiUserExceptionDispatcher|        |
+|770EBEBA|ntdll.dll     |               |           |NtRaiseException         |        |
+|770EBEB0|ntdll.dll     |               |           |NtRaiseException         |        |
+|73A066F0|gdi32full.dll |               |           |ScriptStringAnalyse      |        |
+|739FA2FE|gdi32full.dll |               |           |SetViewportOrgEx         |        |
+|740A31AA|win32u.dll    |               |           |NtGdiPolyPatBlt          |        |
+|739F4BB0|gdi32full.dll |               |           |PolyPatBlt               |        |
+|770EAB0A|ntdll.dll     |               |           |ZwQueryVirtualMemory     |        |
+|76B8AEB9|KERNELBASE.dll|               |           |VirtualQuery             |        |
+|759267B0|KERNEL32.DLL  |               |           |IsValidCodePage          |        |
+|770F07D0|ntdll.dll     |               |           |memcpy                   |        |
+|0060B980|Karel.exe     |UCompilador.pas|TCompilador|SeparaEnTokens           |3741[35]|
+|0060B74C|Karel.exe     |UCompilador.pas|TCompilador|SeparaEnTokens           |3706[0] |
+|005FF01D|Karel.exe     |UCompilador.pas|TCompilador|Compila                  |334[19] |
+|005FEF90|Karel.exe     |UCompilador.pas|TCompilador|Compila                  |315[0]  |
+|00610761|Karel.exe     |UPrincipal.pas |TFPrincipal|Button9Click             |618[3]  |
+|73D67AF8|user32.dll    |               |           |CallWindowProcW          |        |
+|73D67B05|user32.dll    |               |           |CallWindowProcW          |        |
+|73D89CD4|user32.dll    |               |           |GetWindowThreadProcessId |        |
+|73D6FDBB|user32.dll    |               |           |DrawStateW               |        |
+|73D6FDD8|user32.dll    |               |           |DrawStateW               |        |
+|73D6FDE8|user32.dll    |               |           |DrawStateW               |        |
+|770BE870|ntdll.dll     |               |           |RtlLeaveCriticalSection  |        |
+|73D6BC52|user32.dll    |               |           |SendMessageW             |        |
+|73D6BB20|user32.dll    |               |           |SendMessageW             |        |
+|73D67AF8|user32.dll    |               |           |CallWindowProcW          |        |
+|740A2ADA|win32u.dll    |               |           |NtUserGetThreadState     |        |
+|73D7A170|user32.dll    |               |           |GetCapture               |        |
+|73D7A160|user32.dll    |               |           |GetCapture               |        |
+|73B60418|oleaut32.dll  |               |           |SysFreeString            |        |
+|73B60423|oleaut32.dll  |               |           |SysFreeString            |        |
+|73D87A7B|user32.dll    |               |           |DispatchMessageW         |        |
+|73D87A70|user32.dll    |               |           |DispatchMessageW         |        |
+|0061C153|Karel.exe     |Karel.dpr      |           |                         |17[3]   |
+|75928492|KERNEL32.DLL  |               |           |BaseThreadInitThunk      |        |
+----------------------------------------------------------------------------------------
+
+Modules Information:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name                         |Description                                                                   |Version            |Size    |Modified           |Path                                                                                                         |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00400000|Karel.exe                    |                                                                              |2.0.0.11           |2453504 |2019-05-13 17:18:14|C:\Users\Admin\Documents\Karel                                                                               |
+|0A8B0000|DevDispItemProvider.dll      |Subsistema devquery InProc DeviceItem                                         |6.2.17134.1        |98720   |2018-04-11 18:34:48|C:\Windows\System32                                                                                          |
+|0B710000|ShellExtX32.dll              |                                                                              |                   |580856  |2019-02-07 17:22:16|C:\Users\Admin\AppData\Local\MEGAsync                                                                        |
+|0B8F0000|PhotoMetadataHandler.dll     |Photo Metadata Handler                                                        |6.2.17134.345      |355840  |2018-09-19 23:10:14|C:\WINDOWS\system32                                                                                          |
+|0BCA0000|GROOVEEX.DLL                 |Microsoft OneDrive for Business Extensions                                    |16.0.4266.1001     |1512152 |2015-07-31 11:01:24|C:\Program Files (x86)\Microsoft Office\Office16                                                             |
+|0BE20000|VCRUNTIME140.dll             |Microsoft® C Runtime Library                                                  |14.0.23026.0       |75960   |2015-07-31 09:30:40|C:\WINDOWS\SYSTEM32                                                                                          |
+|0C010000|GrooveIntlResource.dll       |Módulo de recurso intl de Microsoft OneDrive para la Empresa                  |16.0.4266.1001     |9009920 |2015-07-31 11:00:50|C:\Program Files (x86)\Microsoft Office\Office16\3082                                                        |
+|0C8B0000|NetworkExplorer.dll          |Explorador de red                                                             |6.2.17134.1        |1183744 |2018-04-11 18:34:54|C:\WINDOWS\system32                                                                                          |
+|0F2D0000|IconCodecService.dll         |Converts a PNG part of the icon to a legacy bmp icon                          |6.2.17134.1        |11776   |2018-04-11 18:34:52|C:\WINDOWS\system32                                                                                          |
+|0F3C0000|msado15.dll                  |ActiveX Data Objects                                                          |6.2.17134.648      |1083392 |2019-03-06 07:06:20|C:\Program Files (x86)\Common Files\System\ado                                                               |
+|0F580000|PlayToDevice.dll             |PLAYTODEVICE DLL                                                              |6.2.17134.1        |298496  |2018-04-11 18:34:52|C:\Windows\System32                                                                                          |
+|0F5F0000|MSVCP140.dll                 |Microsoft® C Runtime Library                                                  |14.0.23026.0       |430264  |2015-07-31 09:30:40|C:\WINDOWS\SYSTEM32                                                                                          |
+|0F810000|dlnashext.dll                |DLNA Namespace DLL                                                            |6.2.17134.1        |241664  |2018-04-11 18:34:04|C:\Windows\System32                                                                                          |
+|0F8E0000|DAVHLPR.dll                  |DAV Helper DLL                                                                |6.2.17134.1        |22016   |2018-04-11 18:35:00|C:\WINDOWS\System32                                                                                          |
+|0FA10000|olepro32.dll                 |OLEPRO32.DLL                                                                  |6.2.17134.1        |89600   |2018-04-11 18:35:00|C:\WINDOWS\SYSTEM32                                                                                          |
+|0FBC0000|FileSyncShell.dll            |Microsoft OneDrive Shell Extension                                            |19.62.331.6        |1286240 |2019-05-08 09:19:12|C:\Users\Admin\AppData\Local\Microsoft\OneDrive\19.062.0331.0006                                             |
+|0FD00000|MSDART.DLL                   |OLE DB Runtime Routines                                                       |6.2.17134.1        |123904  |2018-04-11 18:34:56|C:\WINDOWS\SYSTEM32                                                                                          |
+|0FF90000|PortableDeviceApi.dll        |Componentes de la API de dispositivo portátil de Windows                      |6.2.17134.1        |527360  |2018-04-11 18:34:04|C:\Windows\System32                                                                                          |
+|50000000|drprov.dll                   |Proveedor de red del servidor host de sesión de Escritorio remoto de Microsoft|6.2.17134.1        |20480   |2018-04-11 18:35:02|C:\WINDOWS\System32                                                                                          |
+|50010000|thumbcache.dll               |Caché de vistas en miniatura de Microsoft                                     |6.2.17134.441      |295224  |2018-11-08 20:47:32|C:\Windows\System32                                                                                          |
+|519B0000|tiptsf.dll                   |Marco de servicios de texto del panel de escritura a mano y teclado táctil    |6.2.17134.191      |537504  |2018-07-14 18:25:46|C:\Program Files (x86)\Common Files\microsoft shared\ink                                                     |
+|53F10000|DropboxExt.27.0.dll          |Dropbox Shell Extension                                                       |1.0.27.0           |343888  |2019-05-07 14:21:44|C:\Program Files (x86)\Dropbox\Client                                                                        |
+|54320000|twinapi.dll                  |twinapi                                                                       |6.2.17134.1        |530432  |2018-04-11 18:35:02|C:\Windows\System32                                                                                          |
+|57420000|Windows.StateRepositoryPS.dll|Windows StateRepository Proxy/Stub Server                                     |6.2.17134.112      |568720  |2018-06-08 04:09:32|C:\Windows\System32                                                                                          |
+|60BF0000|LINKINFO.dll                 |Windows Volume Tracking                                                       |6.2.17134.1        |23552   |2018-04-11 18:35:00|C:\WINDOWS\SYSTEM32                                                                                          |
+|69E80000|dhcpcsvc6.DLL                |Cliente DHCPv6                                                                |6.2.17134.1        |57856   |2018-04-11 18:34:52|C:\WINDOWS\SYSTEM32                                                                                          |
+|69FE0000|WindowsCodecs.dll            |Microsoft Windows Codecs Library                                              |6.2.17134.345      |1513032 |2018-09-19 23:29:06|C:\WINDOWS\SYSTEM32                                                                                          |
+|6B090000|dcomp.dll                    |Microsoft DirectComposition Library                                           |6.2.17134.1        |1286624 |2018-04-11 18:34:52|C:\WINDOWS\system32                                                                                          |
+|6B1D0000|d3d11.dll                    |Direct3D 11 Runtime                                                           |6.2.17134.441      |2417976 |2018-11-08 21:07:18|C:\WINDOWS\system32                                                                                          |
+|6B430000|dataexchange.dll             |Data exchange                                                                 |6.2.17134.1        |308736  |2018-04-11 18:34:46|C:\WINDOWS\system32                                                                                          |
+|6B480000|ieframe.dll                  |Explorador de Internet                                                        |11.0.17134.706     |11919360|2019-04-02 04:11:10|C:\Windows\System32                                                                                          |
+|6BFF0000|CoreMessaging.dll            |Microsoft CoreMessaging Dll                                                   |6.2.17134.471      |567256  |2018-12-08 02:45:32|C:\WINDOWS\System32                                                                                          |
+|6C080000|CoreUIComponents.dll         |Microsoft Core UI Components Dll                                              |6.2.17134.376      |2487088 |2018-10-21 02:19:08|C:\WINDOWS\System32                                                                                          |
+|6C2E0000|TextInputFramework.dll       |"TextInputFramework.DYNLINK"                                                  |6.2.17134.376      |505616  |2018-10-21 02:19:02|C:\WINDOWS\System32                                                                                          |
+|6C610000|msvcp110_win.dll             |Microsoft® STL110 C++ Runtime Library                                         |6.2.17134.1        |417360  |2018-04-11 18:34:46|C:\WINDOWS\SYSTEM32                                                                                          |
+|6C720000|RMCLIENT.dll                 |Resource Manager Client                                                       |6.2.17134.556      |127744  |2019-01-09 00:43:42|C:\WINDOWS\system32                                                                                          |
+|6C750000|twinapi.appcore.dll          |twinapi.appcore                                                               |6.2.17134.137      |1462824 |2018-06-15 00:04:58|C:\WINDOWS\system32                                                                                          |
+|6C8C0000|edputil.dll                  |Util de EDP                                                                   |6.2.17134.1        |234496  |2018-04-11 18:34:54|C:\WINDOWS\SYSTEM32                                                                                          |
+|6C900000|Windows.Storage.Search.dll   |Windows.Storage.Search                                                        |6.2.17134.1        |665600  |2018-04-11 18:34:46|C:\WINDOWS\system32                                                                                          |
+|6C9B0000|ntshrui.dll                  |Extensiones de shell para uso compartido                                      |6.2.17134.1        |796160  |2018-04-11 18:35:00|C:\WINDOWS\SYSTEM32                                                                                          |
+|6CA80000|StructuredQuery.dll          |Structured Query                                                              |7.0.17134.228      |539168  |2018-08-02 22:25:44|C:\WINDOWS\System32                                                                                          |
+|6CFB0000|wintypes.dll                 |DLL de tipos basados en Windows                                               |6.2.17134.523      |880048  |2019-01-01 01:38:00|C:\WINDOWS\SYSTEM32                                                                                          |
+|6D090000|CLDAPI.dll                   |Cloud API user mode API                                                       |6.2.17134.1        |89600   |2018-04-11 18:34:50|C:\WINDOWS\SYSTEM32                                                                                          |
+|6D1D0000|OneCoreUAPCommonProxyStub.dll|OneCoreUAP Common Proxy Stub                                                  |6.2.17134.1        |3330976 |2018-04-11 18:34:46|C:\Windows\System32                                                                                          |
+|6D590000|srvcli.dll                   |Server Service Client DLL                                                     |6.2.17134.1        |74952   |2018-04-11 18:34:52|C:\WINDOWS\SYSTEM32                                                                                          |
+|6E470000|dhcpcsvc.DLL                 |Servicio cliente DHCP                                                         |6.2.17134.1        |62976   |2018-04-11 18:34:52|C:\WINDOWS\SYSTEM32                                                                                          |
+|6EF10000|comctl32.DLL                 |Biblioteca de controles de la experiencia del usuario                         |6.10.17134.706     |2099000 |2019-04-02 04:21:20|C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17134.706_none_42f0d9a244e0990d |
+|6F120000|WININET.dll                  |Extensiones de Internet para Win32                                            |11.0.17134.648     |4516352 |2019-03-06 00:49:02|C:\WINDOWS\SYSTEM32                                                                                          |
+|6F770000|iertutil.dll                 |Utilidad en tiempo de ejecución para Internet Explorer                        |11.0.17134.677     |2256248 |2019-03-14 03:37:28|C:\Windows\System32                                                                                          |
+|700E0000|urlmon.dll                   |Extensiones OLE32 para Win32                                                  |11.0.17134.648     |1628160 |2019-03-06 00:50:22|C:\WINDOWS\SYSTEM32                                                                                          |
+|70C30000|ktmw32.dll                   |Windows KTM Win32 Client DLL                                                  |6.2.17134.1        |20992   |2018-04-11 18:34:56|C:\WINDOWS\SYSTEM32                                                                                          |
+|71E90000|WINHTTP.dll                  |Servicios HTTP de Windows                                                     |6.2.17134.590      |720480  |2019-02-05 22:01:40|C:\Windows\System32                                                                                          |
+|722F0000|atlthunk.dll                 |atlthunk.dll                                                                  |6.2.17134.1        |37376   |2018-04-11 18:34:46|C:\WINDOWS\SYSTEM32                                                                                          |
+|723B0000|XmlLite.dll                  |Microsoft XmlLite Library                                                     |6.2.17134.1        |192704  |2018-04-11 18:34:52|C:\WINDOWS\SYSTEM32                                                                                          |
+|72510000|npmproxy.dll                 |Network List Manager Proxy                                                    |6.2.17134.590      |21504   |2019-02-05 21:40:52|C:\WINDOWS\System32                                                                                          |
+|72520000|netprofm.dll                 |Network List Manager                                                          |6.2.17134.1        |176128  |2018-04-11 18:34:58|C:\WINDOWS\System32                                                                                          |
+|72550000|ntmarta.dll                  |Proveedor MARTA de Windows NT                                                 |6.2.17134.1        |154016  |2018-04-11 18:34:52|C:\WINDOWS\SYSTEM32                                                                                          |
+|72580000|WINSTA.dll                   |Winstation Library                                                            |6.2.17134.1        |253176  |2018-04-11 18:35:02|C:\WINDOWS\System32                                                                                          |
+|725E0000|WINNSI.DLL                   |Network Store Information RPC interface                                       |6.2.17134.1        |28448   |2018-04-11 18:34:24|C:\WINDOWS\SYSTEM32                                                                                          |
+|725F0000|NETUTILS.DLL                 |Net Win32 API Helpers DLL                                                     |6.2.17134.1        |37768   |2018-04-11 18:34:52|C:\Windows\System32                                                                                          |
+|72630000|samcli.dll                   |Security Accounts Manager Client DLL                                          |6.2.17134.1        |70656   |2018-04-11 18:34:52|C:\WINDOWS\SYSTEM32                                                                                          |
+|72650000|DNSAPI.dll                   |DLL de API de cliente DNS                                                     |6.2.17134.441      |573504  |2018-11-08 20:46:48|C:\WINDOWS\SYSTEM32                                                                                          |
+|726E0000|mswsock.dll                  |Proveedor de servicios de Microsoft Windows Sockets 2.0                       |6.2.17134.1        |341920  |2018-04-11 18:34:52|C:\WINDOWS\SYSTEM32                                                                                          |
+|72750000|wsock32.dll                  |Windows Socket 32-Bit DLL                                                     |6.2.17134.1        |16384   |2018-04-11 18:34:56|C:\WINDOWS\SYSTEM32                                                                                          |
+|72760000|NETAPI32.dll                 |Net Win32 API DLL                                                             |6.2.17134.1        |69288   |2018-04-11 18:34:50|C:\Windows\System32                                                                                          |
+|72780000|cscapi.dll                   |Offline Files Win32 API                                                       |6.2.17134.1        |41984   |2018-04-11 18:35:00|C:\WINDOWS\SYSTEM32                                                                                          |
+|72790000|WKSCLI.DLL                   |Workstation Service Client DLL                                                |6.2.17134.1        |58432   |2018-04-11 18:34:52|C:\Windows\System32                                                                                          |
+|729B0000|dxgi.dll                     |DirectX Graphics Infrastructure                                               |6.2.17134.112      |613144  |2018-06-08 05:35:54|C:\WINDOWS\system32                                                                                          |
+|72A60000|msi.dll                      |Windows Installer                                                             |5.0.17134.706      |4054528 |2019-04-02 04:07:20|C:\WINDOWS\SYSTEM32                                                                                          |
+|72E50000|dwmapi.dll                   |API del Administrador de ventanas de escritorio de Microsoft                  |6.2.17134.1        |124824  |2018-04-11 18:34:52|C:\WINDOWS\system32                                                                                          |
+|72E80000|MPR.dll                      |DLL del enrutador de provisión múltiple                                       |6.2.17134.677      |90360   |2019-03-14 03:38:04|C:\WINDOWS\SYSTEM32                                                                                          |
+|73020000|comctl32.dll                 |Biblioteca de controles comunes                                               |5.82.17134.48      |573848  |2018-05-16 05:45:26|C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17134.706_none_40fb64164515a358|
+|73130000|apphelp.dll                  |Biblioteca de compatibilidad de aplicaciones cliente                          |6.2.17134.1        |627712  |2018-04-11 18:34:52|C:\WINDOWS\SYSTEM32                                                                                          |
+|73290000|DEVOBJ.dll                   |Device Information Set DLL                                                    |6.2.17134.1        |133824  |2018-04-11 18:34:52|C:\WINDOWS\System32                                                                                          |
+|732C0000|MMDevApi.dll                 |API de MMDevice                                                               |6.2.17134.1        |360104  |2018-04-11 18:34:46|C:\WINDOWS\System32                                                                                          |
+|73320000|winmmbase.dll                |Base Multimedia Extension API DLL                                             |6.2.17134.1        |131776  |2018-04-11 18:34:46|C:\WINDOWS\SYSTEM32                                                                                          |
+|73350000|bcrypt.dll                   |Biblioteca de primitivas criptográficas de Windows                            |6.2.17134.112      |97176   |2018-06-08 04:10:40|C:\WINDOWS\SYSTEM32                                                                                          |
+|73370000|PROPSYS.dll                  |Sistema de propiedades de Microsoft                                           |7.0.17134.619      |1584536 |2019-02-16 02:51:04|C:\WINDOWS\SYSTEM32                                                                                          |
+|73660000|oleacc.dll                   |Active Accessibility Core Component                                           |7.2.17134.1        |334336  |2018-04-11 18:35:00|C:\Windows\System32                                                                                          |
+|736E0000|WINMM.dll                    |MCI API DLL                                                                   |6.2.17134.1        |134920  |2018-04-11 18:34:46|C:\WINDOWS\system32                                                                                          |
+|73710000|uxtheme.dll                  |Biblioteca UxTheme de Microsoft                                               |6.2.17134.1        |485888  |2018-04-11 18:35:02|C:\WINDOWS\system32                                                                                          |
+|73790000|winspool.drv                 |Controlador de administración de colas para Windows                           |6.2.17134.648      |423936  |2019-03-06 07:04:28|C:\WINDOWS\SYSTEM32                                                                                          |
+|73800000|msimg32.dll                  |GDIEXT Client DLL                                                             |6.2.17134.1        |7168    |2018-04-11 18:34:52|C:\WINDOWS\SYSTEM32                                                                                          |
+|73810000|IPHLPAPI.DLL                 |API auxiliar para IP                                                          |6.2.17134.1        |190136  |2018-04-11 18:34:52|C:\WINDOWS\SYSTEM32                                                                                          |
+|738E0000|USERENV.dll                  |Userenv                                                                       |6.2.17134.1        |128672  |2018-04-11 18:34:52|C:\WINDOWS\SYSTEM32                                                                                          |
+|73920000|version.dll                  |Version Checking and File Installation Libraries                              |6.2.17134.1        |27424   |2018-04-11 18:35:02|C:\WINDOWS\SYSTEM32                                                                                          |
+|73930000|CRYPTBASE.dll                |Base cryptographic API DLL                                                    |6.2.17134.1        |31592   |2018-04-11 18:35:02|C:\WINDOWS\System32                                                                                          |
+|73940000|SspiCli.dll                  |Security Support Provider Interface                                           |6.2.17134.376      |123424  |2018-10-21 02:21:16|C:\WINDOWS\System32                                                                                          |
+|73960000|kernel.appcore.dll           |AppModel API Host                                                             |6.2.17134.112      |50208   |2018-06-08 04:09:42|C:\WINDOWS\System32                                                                                          |
+|73970000|gdi32full.dll                |GDI Client DLL                                                                |6.2.17134.706      |1454648 |2019-04-02 04:25:32|C:\WINDOWS\System32                                                                                          |
+|73AE0000|coml2.dll                    |Microsoft COM for Windows                                                     |6.2.17134.407      |384520  |2018-10-31 23:48:48|C:\WINDOWS\System32                                                                                          |
+|73B40000|oleaut32.dll                 |OLEAUT32.DLL                                                                  |6.2.17134.706      |604008  |2019-04-02 00:04:44|C:\WINDOWS\System32                                                                                          |
+|73BE0000|GDI32.dll                    |GDI Client DLL                                                                |6.2.17134.285      |134936  |2018-08-30 22:28:44|C:\WINDOWS\System32                                                                                          |
+|73C10000|WS2_32.dll                   |DLL de 32 bits de Windows Socket 2.0                                          |6.2.17134.1        |412792  |2018-04-11 18:35:04|C:\WINDOWS\System32                                                                                          |
+|73C80000|WINTRUST.dll                 |Microsoft Trust Verification APIs                                             |6.2.17134.556      |287640  |2019-01-09 00:43:02|C:\WINDOWS\System32                                                                                          |
+|73CD0000|advapi32.dll                 |API base de Windows 32 avanzado                                               |6.2.17134.471      |481880  |2018-12-08 07:41:06|C:\WINDOWS\System32                                                                                          |
+|73D50000|user32.dll                   |Archivo DLL de cliente API USER de Windows multiusuario                       |6.2.17134.376      |1626656 |2018-10-21 06:37:44|C:\WINDOWS\System32                                                                                          |
+|74050000|powrprof.dll                 |Archivo DLL auxiliar del perfil de energía                                    |6.2.17134.1        |274352  |2018-04-11 18:34:52|C:\WINDOWS\System32                                                                                          |
+|740A0000|win32u.dll                   |Win32u                                                                        |6.2.17134.1        |86840   |2018-04-11 18:34:50|C:\WINDOWS\System32                                                                                          |
+|740C0000|clbcatq.dll                  |COM+ Configuration Catalog                                                    |2001.12.10941.16384|526848  |2018-04-11 18:34:52|C:\WINDOWS\System32                                                                                          |
+|74150000|ole32.dll                    |Microsoft OLE para Windows                                                    |6.2.17134.407      |1027000 |2018-11-01 05:09:56|C:\WINDOWS\System32                                                                                          |
+|74250000|comdlg32.dll                 |Archivo DLL de diálogos comunes                                               |6.2.17134.1        |847872  |2018-04-11 18:35:00|C:\WINDOWS\System32                                                                                          |
+|74390000|profapi.dll                  |User Profile Basic API                                                        |6.2.17134.1        |89440   |2018-04-11 18:35:04|C:\WINDOWS\System32                                                                                          |
+|743B0000|CRYPT32.dll                  |Crypto API32                                                                  |6.2.17134.1        |1658024 |2018-04-11 18:34:52|C:\WINDOWS\System32                                                                                          |
+|74550000|shell32.dll                  |Archivo DLL común del shell de Windows                                        |6.2.17134.441      |20383832|2018-11-09 00:32:08|C:\WINDOWS\System32                                                                                          |
+|758A0000|NSI.dll                      |NSI User-mode interface DLL                                                   |6.2.17134.1        |20216   |2018-04-11 18:34:24|C:\WINDOWS\System32                                                                                          |
+|758B0000|sechost.dll                  |Host for SCM/SDDL/LSA Lookup APIs                                             |6.2.17134.319      |269104  |2018-09-07 22:43:50|C:\WINDOWS\System32                                                                                          |
+|75900000|MSASN1.dll                   |ASN.1 Runtime APIs                                                            |6.2.17134.1        |49656   |2018-04-11 18:34:52|C:\WINDOWS\System32                                                                                          |
+|75910000|KERNEL32.DLL                 |Archivo DLL de cliente API BASE de Windows NT                                 |6.2.17134.706      |607960  |2019-04-02 04:25:10|C:\WINDOWS\System32                                                                                          |
+|75A80000|cfgmgr32.dll                 |Configuration Manager DLL                                                     |6.2.17134.1        |228864  |2018-04-11 18:34:52|C:\WINDOWS\System32                                                                                          |
+|75AC0000|MSCTF.dll                    |Archivo DLL del servidor MSCTF                                                |6.2.17134.619      |1322176 |2019-02-16 07:22:52|C:\WINDOWS\System32                                                                                          |
+|75C10000|FLTLIB.DLL                   |Biblioteca de filtros                                                         |6.2.17134.1        |27936   |2018-04-11 18:34:52|C:\WINDOWS\System32                                                                                          |
+|75C20000|shcore.dll                   |SHCORE                                                                        |6.2.17134.112      |553248  |2018-06-08 04:09:56|C:\WINDOWS\System32                                                                                          |
+|75CB0000|bcryptPrimitives.dll         |Windows Cryptographic Primitives Library                                      |6.2.17134.471      |356864  |2018-12-08 02:45:52|C:\WINDOWS\System32                                                                                          |
+|75D10000|windows.storage.dll          |API de almacenamiento de Microsoft WinRT                                      |6.2.17134.677      |6043496 |2019-03-14 03:37:30|C:\WINDOWS\System32                                                                                          |
+|76300000|msvcrt.dll                   |Windows NT CRT DLL                                                            |7.0.17134.1        |774288  |2018-04-11 18:35:02|C:\WINDOWS\System32                                                                                          |
+|76420000|SETUPAPI.dll                 |API de instalación de Windows                                                 |6.2.17134.1        |4403720 |2018-04-11 18:35:00|C:\WINDOWS\System32                                                                                          |
+|76850000|IMM32.DLL                    |Multi-User Windows IMM32 API Client DLL                                       |6.2.17134.1        |147288  |2018-04-11 18:34:52|C:\WINDOWS\System32                                                                                          |
+|76880000|ucrtbase.dll                 |Microsoft® C Runtime Library                                                  |6.2.17134.677      |1171568 |2019-03-14 03:37:14|C:\WINDOWS\System32                                                                                          |
+|769A0000|shlwapi.dll                  |Biblioteca de utilidades de Shell                                             |6.2.17134.1        |278960  |2018-04-11 18:35:00|C:\WINDOWS\System32                                                                                          |
+|769F0000|PSAPI.DLL                    |Process Status Helper                                                         |6.2.17134.1        |17104   |2018-04-11 18:34:52|C:\WINDOWS\System32                                                                                          |
+|76A00000|msvcp_win.dll                |Microsoft® C Runtime Library                                                  |6.2.17134.619      |504072  |2019-02-16 02:50:28|C:\WINDOWS\System32                                                                                          |
+|76A80000|KERNELBASE.dll               |Archivo DLL de cliente API BASE de Windows NT                                 |6.2.17134.556      |1981280 |2019-01-09 00:43:10|C:\WINDOWS\System32                                                                                          |
+|76C70000|combase.dll                  |Microsoft COM para Windows                                                    |6.2.17134.619      |2479168 |2019-02-16 02:51:16|C:\WINDOWS\System32                                                                                          |
+|76ED0000|RPCRT4.dll                   |Tiempo de ejecución de llamada a procedimiento remoto                         |6.2.17134.648      |785568  |2019-03-06 01:14:34|C:\WINDOWS\System32                                                                                          |
+|77080000|ntdll.dll                    |DLL del nivel de Windows NT                                                   |6.2.17134.556      |1620264 |2019-01-09 00:43:04|C:\WINDOWS\SYSTEM32                                                                                          |
+|77210000|davclnt.dll                  |Web DAV Client DLL                                                            |6.2.17134.1        |78848   |2018-04-11 18:35:04|C:\WINDOWS\System32                                                                                          |
+|77230000|ntlanman.dll                 |Microsoft® Lan Manager                                                        |6.2.17134.677      |57344   |2019-03-14 03:17:58|C:\WINDOWS\System32                                                                                          |
+|77250000|SAMLIB.dll                   |SAM Library DLL                                                               |6.2.17134.1        |84992   |2018-04-11 18:34:52|C:\WINDOWS\SYSTEM32                                                                                          |
+|77270000|globinputhost.dll            |Windows Globalization Extension API for Input                                 |6.2.17134.1        |113152  |2018-04-11 18:34:48|C:\WINDOWS\SYSTEM32                                                                                          |
+|77290000|bcp47mrm.dll                 |BCP47 Language Classes for Resource Management                                |6.2.17134.1        |113168  |2018-04-11 18:34:48|C:\Windows\System32                                                                                          |
+|772B0000|Bcp47Langs.dll               |BCP47 Language Classes                                                        |6.2.17134.1        |234016  |2018-04-11 18:34:48|C:\Windows\System32                                                                                          |
+|772F0000|Windows.Globalization.dll    |Windows Globalization                                                         |6.2.17134.556      |1189888 |2019-01-09 00:23:52|C:\Windows\System32                                                                                          |
+|77420000|policymanager.dll            |Policy Manager DLL                                                            |6.2.17134.619      |443632  |2019-02-16 02:53:06|C:\WINDOWS\SYSTEM32                                                                                          |
+|77490000|DUser.dll                    |Windows DirectUser Engine                                                     |6.2.17134.1        |487424  |2018-04-11 18:34:52|C:\WINDOWS\system32                                                                                          |
+|77510000|DUI70.dll                    |Motor DirectUI de Windows                                                     |6.2.17134.112      |1462784 |2018-06-08 11:47:14|C:\WINDOWS\system32                                                                                          |
+|77680000|explorerframe.dll            |ExplorerFrame                                                                 |6.2.17134.1        |4175360 |2018-04-11 18:35:00|C:\WINDOWS\system32                                                                                          |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processes Information:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|ID   |Name                     |Description                                                 |Version       |Memory|Priority    |Threads|Path                                                |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|0    |[System Process]         |                                                            |              |0     |            |4      |                                                    |
+|4    |System                   |                                                            |              |0     |Normal      |176    |                                                    |
+|96   |Registry                 |                                                            |              |0     |Normal      |3      |                                                    |
+|400  |smss.exe                 |                                                            |              |0     |Above-Normal|2      |                                                    |
+|492  |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |18     |                                                    |
+|624  |csrss.exe                |                                                            |              |0     |High        |22     |                                                    |
+|648  |csrss.exe                |                                                            |              |0     |High        |11     |                                                    |
+|708  |wininit.exe              |                                                            |              |0     |High        |1      |                                                    |
+|720  |csrss.exe                |                                                            |              |0     |High        |11     |                                                    |
+|780  |services.exe             |                                                            |              |0     |Normal      |7      |                                                    |
+|788  |lsass.exe                |                                                            |              |0     |Normal      |10     |                                                    |
+|904  |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |2      |                                                    |
+|924  |fontdrvhost.exe          |Usermode Font Driver Host                                   |10.0.17134.376|0     |Normal      |5      |                                                    |
+|960  |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |23     |                                                    |
+|1016 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |17     |                                                    |
+|1124 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |2      |                                                    |
+|1148 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |4      |                                                    |
+|1252 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |9      |                                                    |
+|1276 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |2      |                                                    |
+|1388 |ibmpmsvc.exe             |                                                            |              |0     |Normal      |10     |                                                    |
+|1396 |LPlatSvc.exe             |                                                            |              |0     |Normal      |8      |                                                    |
+|1408 |DropboxUpdate.exe        |                                                            |              |0     |Normal      |3      |                                                    |
+|1444 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |4      |                                                    |
+|1512 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |5      |                                                    |
+|1532 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |6      |                                                    |
+|1548 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|1584 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|1616 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |4      |                                                    |
+|1708 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |6      |                                                    |
+|1716 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |5      |                                                    |
+|1764 |Memory Compression       |                                                            |              |0     |Normal      |62     |                                                    |
+|1776 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |7      |                                                    |
+|1812 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |2      |                                                    |
+|1868 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |8      |                                                    |
+|1916 |igfxCUIService.exe       |                                                            |              |0     |Normal      |2      |                                                    |
+|1928 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |6      |                                                    |
+|1972 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |7      |                                                    |
+|2132 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |14     |                                                    |
+|2256 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |13     |                                                    |
+|2328 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |13     |                                                    |
+|2344 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |6      |                                                    |
+|2352 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |10     |                                                    |
+|2392 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |16     |                                                    |
+|2396 |IntelCpHDCPSvc.exe       |                                                            |              |0     |Normal      |3      |                                                    |
+|2480 |csrss.exe                |                                                            |              |0     |High        |15     |                                                    |
+|2536 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |8      |                                                    |
+|2560 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |10     |                                                    |
+|2580 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |14     |                                                    |
+|2660 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |4      |                                                    |
+|2668 |wlanext.exe              |Marco de extensibilidad de LAN inalámbrica 802.11 de Windows|10.0.17134.1  |0     |Normal      |9      |                                                    |
+|2684 |conhost.exe              |                                                            |              |0     |Normal      |2      |                                                    |
+|2688 |CxUtilSvc.exe            |                                                            |              |0     |Normal      |2      |                                                    |
+|2744 |fshoster64.exe           |                                                            |              |0     |Normal      |3      |                                                    |
+|2768 |spoolsv.exe              |                                                            |              |0     |Normal      |28     |                                                    |
+|2804 |CAudioFilterAgent64.exe  |                                                            |              |0     |Below-Normal|3      |                                                    |
+|2856 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |14     |                                                    |
+|2868 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |6      |                                                    |
+|2992 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|3060 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |7      |                                                    |
+|3080 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |2      |                                                    |
+|3104 |FSMA32.EXE               |                                                            |              |0     |Normal      |19     |                                                    |
+|3160 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |5      |                                                    |
+|3200 |chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|3224 |RuntimeBroker.exe        |                                                            |              |0     |Normal      |2      |                                                    |
+|3252 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |9      |                                                    |
+|3268 |browser_broker.exe       |                                                            |              |0     |Normal      |2      |                                                    |
+|3288 |EasyResume.exe           |                                                            |              |0     |Normal      |5      |                                                    |
+|3340 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |6      |                                                    |
+|3360 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |2      |                                                    |
+|3376 |RtkBtManServ.exe         |Realtek Bluetooth Device Manager Service Application        |1.0.4.1       |0     |Normal      |3      |                                                    |
+|3384 |SASrv.exe                |                                                            |              |0     |Normal      |3      |                                                    |
+|3408 |SecurityHealthService.exe|                                                            |              |0     |Normal      |33     |                                                    |
+|3424 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |9      |                                                    |
+|3436 |SynTPEnhService.exe      |                                                            |              |0     |Normal      |5      |                                                    |
+|3456 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|3468 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |8      |                                                    |
+|3480 |WsAppService.exe         |                                                            |              |0     |Normal      |7      |                                                    |
+|3572 |CxAudMsg64.exe           |                                                            |              |0     |Normal      |3      |                                                    |
+|3712 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|3728 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |6      |                                                    |
+|3748 |dasHost.exe              |                                                            |              |0     |Normal      |3      |                                                    |
+|3988 |fshoster64.exe           |                                                            |              |0     |Normal      |85     |                                                    |
+|4116 |LPlatSvc.exe             |                                                            |              |0     |Normal      |3      |                                                    |
+|4172 |FSHDLL32.EXE             |                                                            |              |0     |Normal      |30     |                                                    |
+|4212 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |29     |                                                    |
+|4280 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |8      |                                                    |
+|4360 |chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|4448 |chrome.exe               |                                                            |              |0     |Normal      |12     |                                                    |
+|4472 |IntelCpHeciSvc.exe       |                                                            |              |0     |Normal      |6      |                                                    |
+|4656 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |12     |                                                    |
+|4840 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |9      |                                                    |
+|4980 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |5      |                                                    |
+|5300 |fnrb32.exe               |                                                            |              |0     |Normal      |8      |                                                    |
+|5308 |FSHDLL64.EXE             |                                                            |              |0     |Normal      |2      |                                                    |
+|5328 |fsaua.exe                |                                                            |              |0     |Below-Normal|4      |                                                    |
+|5428 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |8      |                                                    |
+|5440 |QtWebEngineProcess.exe   |Qt Qtwebengineprocess                                       |5.12.3.0      |0     |Normal      |14     |C:\Program Files (x86)\Dropbox\Client\72.4.136      |
+|5540 |fsdfwd.exe               |                                                            |              |0     |Normal      |10     |                                                    |
+|5624 |fih32.exe                |                                                            |              |0     |Normal      |2      |                                                    |
+|5896 |sihost.exe               |                                                            |              |0     |Normal      |13     |                                                    |
+|5944 |SgrmBroker.exe           |                                                            |              |0     |Normal      |2      |                                                    |
+|6028 |PresentationFontCache.exe|                                                            |              |0     |Normal      |4      |                                                    |
+|6316 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|6408 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |2      |                                                    |
+|6428 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|6712 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |8      |                                                    |
+|6760 |chrome.exe               |                                                            |              |0     |Low         |12     |                                                    |
+|6912 |SearchUI.exe             |                                                            |              |0     |Normal      |52     |                                                    |
+|7096 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |9      |                                                    |
+|7280 |csrss.exe                |                                                            |              |0     |High        |11     |                                                    |
+|7508 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |10     |                                                    |
+|7664 |WINWORD.EXE              |                                                            |              |0     |Normal      |21     |                                                    |
+|8116 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |6      |                                                    |
+|8544 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |6      |                                                    |
+|8760 |GoogleCrashHandler.exe   |                                                            |              |0     |Low         |3      |                                                    |
+|8776 |GoogleCrashHandler64.exe |                                                            |              |0     |Low         |3      |                                                    |
+|9116 |chrome.exe               |                                                            |              |0     |Normal      |17     |                                                    |
+|9220 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |5      |                                                    |
+|9628 |csrss.exe                |                                                            |              |0     |High        |12     |                                                    |
+|9712 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |11     |                                                    |
+|9888 |svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |11     |                                                    |
+|10124|SearchIndexer.exe        |Indizador de Microsoft Windows Search                       |7.0.17134.677 |0     |Normal      |20     |                                                    |
+|10136|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |6      |                                                    |
+|10664|chrome.exe               |                                                            |              |0     |Low         |12     |                                                    |
+|10964|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|11104|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |2      |                                                    |
+|11372|DolbyDAX2API.exe         |                                                            |              |0     |Normal      |7      |                                                    |
+|11860|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |4      |                                                    |
+|11888|chrome.exe               |                                                            |              |0     |Low         |13     |                                                    |
+|12092|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |4      |                                                    |
+|12188|csrss.exe                |                                                            |              |0     |High        |12     |                                                    |
+|12196|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |5      |                                                    |
+|12696|csrss.exe                |                                                            |              |0     |High        |11     |                                                    |
+|12828|ShellExperienceHost.exe  |                                                            |              |0     |Normal      |29     |                                                    |
+|12884|csrss.exe                |                                                            |              |0     |High        |11     |                                                    |
+|13500|SearchProtocolHost.exe   |Microsoft Windows Search Protocol Host                      |7.0.17134.677 |0     |Low         |8      |                                                    |
+|13828|taskhostw.exe            |                                                            |              |0     |Normal      |9      |                                                    |
+|13876|chrome.exe               |                                                            |              |0     |Normal      |11     |                                                    |
+|13964|csrss.exe                |                                                            |              |0     |High        |11     |                                                    |
+|14432|MicrosoftEdge.exe        |                                                            |              |0     |Normal      |39     |                                                    |
+|14660|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|15116|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |4      |                                                    |
+|15268|SkypeBackgroundHost.exe  |                                                            |              |0     |Normal      |2      |                                                    |
+|15368|chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|15496|chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|15592|chrome.exe               |                                                            |              |0     |Low         |12     |                                                    |
+|16024|RuntimeBroker.exe        |                                                            |              |0     |Normal      |5      |                                                    |
+|16184|explorer.exe             |Explorador de Windows                                       |10.0.17134.677|0     |Normal      |128    |                                                    |
+|16292|ApplicationFrameHost.exe |                                                            |              |0     |Normal      |6      |                                                    |
+|16516|fontdrvhost.exe          |Usermode Font Driver Host                                   |10.0.17134.376|0     |Normal      |5      |                                                    |
+|16880|RuntimeBroker.exe        |                                                            |              |0     |Normal      |4      |                                                    |
+|17840|chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|18588|BrCtrlCntr.exe           |ControlCenter Main Process                                  |4.6.6.1       |0     |Normal      |2      |C:\Program Files (x86)\ControlCenter4               |
+|18952|Video.UI.exe             |                                                            |              |0     |Normal      |18     |                                                    |
+|19388|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|19608|chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|19680|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |2      |                                                    |
+|20520|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |5      |                                                    |
+|21844|chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|22104|RuntimeBroker.exe        |                                                            |              |0     |Normal      |2      |                                                    |
+|22136|FSM32.EXE                |F-Secure Settings and Statistics                            |10.10.124.0   |0     |Normal      |20     |C:\Program Files (x86)\F-Secure\Common              |
+|22608|taskhostw.exe            |                                                            |              |0     |Normal      |4      |                                                    |
+|23960|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |6      |                                                    |
+|24624|chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|24876|csrss.exe                |                                                            |              |0     |High        |12     |                                                    |
+|24904|fsulprothoster.exe       |                                                            |              |0     |Normal      |7      |                                                    |
+|25232|LockApp.exe              |                                                            |              |0     |Normal      |10     |                                                    |
+|25716|SkypeBridge.exe          |                                                            |              |0     |Normal      |16     |                                                    |
+|26216|SkypeApp.exe             |                                                            |              |0     |Normal      |40     |                                                    |
+|26596|ctfmon.exe               |Cargador de CTF                                             |10.0.17134.1  |0     |High        |9      |                                                    |
+|26764|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |3      |                                                    |
+|27724|CEPHtmlEngine.exe        |                                                            |              |0     |Normal      |9      |                                                    |
+|27744|chrome.exe               |                                                            |              |0     |Low         |12     |                                                    |
+|28172|Dropbox.exe              |Dropbox                                                     |72.4.136.0    |0     |Normal      |5      |C:\Program Files (x86)\Dropbox\Client               |
+|28512|RuntimeBroker.exe        |                                                            |              |0     |Normal      |1      |                                                    |
+|28572|dllhost.exe              |COM Surrogate                                               |10.0.17134.1  |0     |Normal      |5      |                                                    |
+|28608|CEPHtmlEngine.exe        |                                                            |              |0     |Normal      |21     |                                                    |
+|28620|chrome.exe               |                                                            |              |0     |Normal      |11     |                                                    |
+|28740|Karel.exe                |                                                            |2.0.0.11      |0     |Normal      |21     |C:\Users\Admin\Documents\Karel                      |
+|28804|Music.UI.exe             |                                                            |              |0     |Normal      |17     |                                                    |
+|29380|igfxext.exe              |                                                            |              |0     |Normal      |2      |                                                    |
+|29580|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |2      |                                                    |
+|30128|chrome.exe               |                                                            |              |0     |Normal      |7      |                                                    |
+|30204|LPlatSvc.exe             |                                                            |              |0     |Normal      |8      |                                                    |
+|30664|SnippingTool.exe         |                                                            |              |0     |Normal      |14     |                                                    |
+|31508|RuntimeBroker.exe        |                                                            |              |0     |Normal      |10     |                                                    |
+|31704|chrome.exe               |                                                            |              |0     |Normal      |11     |                                                    |
+|31728|WinStore.App.exe         |                                                            |              |0     |Normal      |21     |                                                    |
+|31764|chrome.exe               |                                                            |              |0     |Normal      |13     |                                                    |
+|32012|chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|32828|chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|32964|chrome.exe               |                                                            |              |0     |Normal      |34     |                                                    |
+|33228|MSASCuiL.exe             |                                                            |              |0     |Normal      |1      |                                                    |
+|33360|chrome.exe               |                                                            |              |0     |Normal      |6      |                                                    |
+|34168|chrome.exe               |                                                            |              |0     |Low         |12     |                                                    |
+|34596|CEPHtmlEngine.exe        |                                                            |              |0     |Normal      |11     |                                                    |
+|34712|chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|35300|chrome.exe               |                                                            |              |0     |Low         |13     |                                                    |
+|35460|jucheck.exe              |Java Update Checker                                         |2.8.181.13    |0     |Normal      |3      |C:\Program Files (x86)\Common Files\Java\Java Update|
+|35652|DbxSvc.exe               |                                                            |              |0     |Normal      |24     |                                                    |
+|35916|chrome.exe               |                                                            |              |0     |Normal      |14     |                                                    |
+|36288|chrome.exe               |                                                            |              |0     |Low         |13     |                                                    |
+|37596|Illustrator.exe          |                                                            |              |0     |Normal      |31     |                                                    |
+|37948|fsorsp64.exe             |                                                            |              |0     |Normal      |11     |                                                    |
+|38048|smartscreen.exe          |                                                            |              |0     |Normal      |14     |                                                    |
+|38068|audiodg.exe              |                                                            |              |0     |Normal      |6      |                                                    |
+|38460|PowerMgr.exe             |Lenovo Power Manager Host                                   |10.0.56.0     |0     |Below-Normal|8      |C:\WINDOWS\SysWOW64\Lenovo\PowerMgr                 |
+|39676|MicrosoftEdgeCP.exe      |                                                            |              |0     |Normal      |17     |                                                    |
+|39824|SystemSettings.exe       |                                                            |              |0     |Normal      |37     |                                                    |
+|40064|csrss.exe                |                                                            |              |0     |High        |11     |                                                    |
+|40296|OneDrive.exe             |Microsoft OneDrive                                          |19.62.331.6   |0     |Normal      |18     |C:\Users\Admin\AppData\Local\Microsoft\OneDrive     |
+|41176|splwow64.exe             |Print driver host for applications                          |10.0.17134.1  |0     |Normal      |4      |                                                    |
+|41236|chrome.exe               |                                                            |              |0     |Low         |15     |                                                    |
+|41436|Microsoft.Photos.exe     |                                                            |              |0     |Normal      |15     |                                                    |
+|42588|MicrosoftEdgeCP.exe      |                                                            |              |0     |Normal      |16     |                                                    |
+|42652|winlogon.exe             |                                                            |              |0     |High        |3      |                                                    |
+|43004|dwm.exe                  |                                                            |              |0     |High        |13     |                                                    |
+|43144|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |11     |                                                    |
+|43436|RuntimeBroker.exe        |                                                            |              |0     |Normal      |11     |                                                    |
+|43824|Dropbox.exe              |Dropbox                                                     |72.4.136.0    |0     |Normal      |6      |C:\Program Files (x86)\Dropbox\Client               |
+|43872|jusched.exe              |Java Update Scheduler                                       |2.8.181.13    |0     |Normal      |2      |C:\Program Files (x86)\Common Files\Java\Java Update|
+|44128|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |4      |                                                    |
+|45040|Dropbox.exe              |Dropbox                                                     |72.4.136.0    |0     |Normal      |144    |C:\Program Files (x86)\Dropbox\Client               |
+|45100|chrome.exe               |                                                            |              |0     |Normal      |2      |                                                    |
+|45300|svchost.exe              |Proceso host para los servicios de Windows                  |10.0.17134.556|0     |Normal      |2      |                                                    |
+|45412|RuntimeBroker.exe        |                                                            |              |0     |Normal      |5      |                                                    |
+|45816|chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|46728|chrome.exe               |                                                            |              |0     |Normal      |11     |                                                    |
+|46756|chrome.exe               |                                                            |              |0     |Normal      |7      |                                                    |
+|46800|csrss.exe                |                                                            |              |0     |High        |11     |                                                    |
+|47080|chrome.exe               |                                                            |              |0     |Low         |12     |                                                    |
+|48332|SearchFilterHost.exe     |Microsoft Windows Search Filter Host                        |7.0.17134.1   |0     |Low         |8      |                                                    |
+|48336|chrome.exe               |                                                            |              |0     |Low         |15     |                                                    |
+|48416|SmartAudio.exe           |SmartAudio                                                  |6.0.273.0     |0     |Below-Normal|30     |C:\Program Files\Conexant\SAII                      |
+|48780|csrss.exe                |                                                            |              |0     |High        |16     |                                                    |
+|49404|chrome.exe               |                                                            |              |0     |Low         |11     |                                                    |
+|49420|chrome.exe               |                                                            |              |0     |Normal      |13     |                                                    |
+|49440|chrome.exe               |                                                            |              |0     |Normal      |7      |                                                    |
+|49492|BrCcUxSys.exe            |ControlCenter UX System                                     |4.6.11.1      |0     |Normal      |1      |C:\Program Files (x86)\ControlCenter4               |
+|49604|RuntimeBroker.exe        |                                                            |              |0     |Normal      |7      |                                                    |
+|49992|SettingSyncHost.exe      |Host Process for Setting Synchronization                    |10.0.17134.1  |0     |Below-Normal|14     |                                                    |
+|50324|IllustratorPortable.exe  |                                                            |              |0     |Normal      |1      |                                                    |
+|51160|igfxEM.exe               |                                                            |              |0     |Normal      |3      |                                                    |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Registers:
+-----------------------------
+EAX: 0252CC64   EDI: 00000000
+EBX: 00000000   ESI: 00000000
+ECX: 00650053   ESP: 0019E070
+EDX: 00000001   EIP: 00000000
+
+Stack:               Memory Dump:
+------------------   ---------------------------------------------------------------------------
+
+
+
